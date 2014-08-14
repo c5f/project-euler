@@ -9,4 +9,12 @@ _From Wikipedia:_
 
 - - -
 
-This repository is organized into branches for each language.  Check out a language branch to view solutions written in that language.
+CoffeeScript
+------------
+
+### Setup
+
+```shell
+$ coffee -o build/ -c source/
+$ node build/problem-<number> [input-file] [output-file]
+```
